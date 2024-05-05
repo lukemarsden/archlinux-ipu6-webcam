@@ -4,7 +4,7 @@
 pkgbase=intel-ipu6-dkms-git
 pkgname=intel-ipu6-dkms-git-fix
 _pkgname=ipu6-drivers
-pkgver=r173.f341c03
+pkgver=r174.8442600
 pkgrel=1
 pkgdesc="Intel IPU6 camera drivers (DKMS)"
 arch=('any')
@@ -14,7 +14,7 @@ depends=('dkms' 'intel-ivsc-firmware')
 provides=('intel-ivsc-driver-dkms-git' 'intel-ipu6-dkms-git')
 conflicts=('intel-ivsc-driver-dkms-git' 'intel-ipu6-dkms-git')
 makedepends=('git')
-source=("git+${url}#commit=8442600622249ca9498208738e22ac253f1f1b72")
+source=("git+${url}#commit=04691add59d2aa54dacef8823d6a334ee429066a")
 sha256sums=('SKIP')
 
 pkgver() {
